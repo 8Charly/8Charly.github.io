@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="Est.css"/>
+</head>
+<body>
+    
+   <div class="pagina">
+        
+    
+        <header>
+                <h1> Leroy Banks</h1>
+        </header>
+        <main>
+            <h4><b>PERFIL</b></h4>
+	              
+            <p id="miperfil"> Me considero una persona responsable, dinamica y creativa, con facilidad de adaptacion
+                y capacidad de trabajar en equipo, en condiciones de alta presion, con iniciativa para resolver problemas
+                eficientemente y lograr las metas y objetivos trazados por la empresa </p>
+            <br>
+            <h4><b>Habilidades</b></h4>
+            <ul>
+                <li>Liderazgo</li>
+                <li>Negociacion </li>
+                <li>Trabajo en equipo</li>
+                <li>Motivacion</li>
+                <li>Adaptabilidad</li>
+                </ul>
+            <h4><b>Idiomas</b></h4>
+            <ul>
+                <li>Español -Muy bueno-</li>
+                <li>Ingles -Muy bueno-</li>
+                <li>Frances -Normal-</li>
+                <li>Portuges -Regular-</li>
+            </ul>	
+             
+                
+        </main>
+        <section>
+            
+            
+            <br>
+            <h4><b> EXPERIENCIAS LABORALES </b></h4>
+            <br>
+            <button type="button" onclick="mostrar1();"> Mostrar 1995-2005</button>
+            <br>
+            <div id="uno">
+               <script>
+                    document.getElementById("uno").style.display = "none";
+                    
+                </script>
+                <p> Encargado de negocio rubro despensa: <b>"El ALMACEN DE TITO" </b> del 1995 al 2005
+		        <ul>
+  	    	        <li>Control y gestion de personal y administracion contable</li>
+           	        <li>Control y gestion de stock de productos</li>
+           	        <li>Venta directa y revision de despachos de ventas online</li>
+	    	    </ul>
+                <button type="button" onclick="ocultar1();"> Cerrar 1995-2005</button>
+                <br>
+            </div>
+            <br>
+            <button type="button" onclick="mostrar2();"> Mostrar 2006-2016</button>
+            <br>   
+            <div id="dos">
+                <script>
+                    document.getElementById("dos").style.display = "none";
+                </script>
+                <p> Encargado de negocio rubro Ferreteria: <b>"EL FENIX" </b> del 2006 al 2016
+		        <ul>
+  	    	        <li>Control y gestion de personal y administracion contable</li>
+            	    <li>Control y gestion de stock de productos</li>
+            	    <li>Venta directa y revision de despachos de ventas online</li>
+	    	    </ul>
+                <br>
+                <button type="button" onclick="ocultar2();"> Cerrar 2006-2016</button>
+                
+            </div> 
+            <br>
+            <button type="button" onclick="mostrar3();"> Mostrar 2016-2023</button>
+            <br>
+	        <div id="tres">
+                <script>
+                    document.getElementById("tres").style.display = "none";
+                </script>
+                <p> Personal de recursos humanos en empresa constructora : <b>"EL FORTIN" </b> del 2017 al 2023
+		        <ul>
+  	    	        <li>Control del personal</li>
+            	    <li>Gestion del Reloj de personal</li>
+            	    <li>administracion asistencias y R.T</li>
+	    	    </ul>
+                <br>
+                <button type="button" onclick="ocultar3();"> Cerrar 2016-2023</button>
+                <br>
+            </div>     
+            <br>
+            <script>
+               
+function mostrar1() {
+    document.getElementById("uno").style.display = "block";
+}
+function ocultar1() {    
+    document.getElementById("uno").style.display = "none";
+} 
+function mostrar2() {
+    document.getElementById("dos").style.display = "block";
+}
+function ocultar2() {    
+    document.getElementById("dos").style.display = "none";
+}
+function mostrar3() {
+    document.getElementById("tres").style.display = "block";
+}
+function ocultar3() {    
+    document.getElementById("tres").style.display = "none";
+}                
+            </script>
+            <h4><b> FORMACION ACADEMICA </b></h4>
+            <ul>
+                <nav>
+                     <li> Nivel Primario en Colegio "SAN JOSE OBRERO"Curso realide PRIMEROS AUXILIOS</a> </li>
+                     <br> 
+                     <li> Nivel Secundario en Colegio WILLIAMS C. MORRIS</a> </li>
+                     <br>
+                     <li> Curso de PRIMEROS AUXILIOS</a> </li>
+                     <br> 
+                     <li> Curso de Microsolft Office Nivel basico</a> </li> 
+                     <br> 
+                     <li> Curso de Microsolft Office Nivel intermedio</a> </li>
+                     <br> 
+                     <li> Curso de Microsolft Office Nivel avanzado</a> </li> 
+                 
+                   
+                </nav>
+            </ul>    
+        </section>
+        <aside>
+            <img src="https://randomuser.me/api/portraits/men/39.jpg" alt="Foto de Perfil" width="200" height="200">
+            <br>
+            <ul>
+              <li> 7/6/1975</li>
+              <li>48 años</li>
+              <li>Cordoba Capital</li>
+              <li>Cordoba </li>
+              <li>Argentina</li>
+            </ul> 	
+            
+            <img src="https://as1.ftcdn.net/v2/jpg/03/83/81/16/1000_F_383811622_4h3Qxeg21XP6HjAwGkVLBHFUX2Egd9EX.jpg" alt="Foto de un sobre" width="25" height="25" style="float: left;"> <p> leroy.banks@example.com <br></p> 
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/609/609803.png" alt="Icono de una casa" width="20" height="20" style="float: left;">   
+            <p>Marsh Ln 356 <br> </p>
+            <img src="https://img.icons8.com/color/512/whatsapp--v1.png" alt="Icono del WhatsApp" width="25" height="25" style="float: left;"><p> (865) 534-6677 <br></p>
+             
+             <nav>
+                <a href="https://es-la.facebook.com/">facebook</a>
+                <br> 
+                <a href="https://www.instagram.com/accounts/login/">instagram</a>
+                <br> 
+                <a href="https://twitter.com/">twitter</a>
+             </nav>
+             <br>
+         
+           
+        </aside>
+
+        
+    </div> 
+</body>
+</html>
+
+
